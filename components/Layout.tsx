@@ -6,10 +6,8 @@ import Footer from './Footer'
 const Layout = ({ children }: Props) => {
   return (
     <>
-      <main>
-        <Header />
-        {children}
-      </main>
+      <Header />
+      <main>{children}</main>
       <Footer />
     </>
   )
